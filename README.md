@@ -9,7 +9,7 @@ pip install tidalapi
 git clone https://github.com/SimDoes/tidal-to-tidal-playlist-convert.git && cd tidal-to-tidal-playlist-convert
 
 python favcopy.py
-python playlistcopy.py # Replace __init__.py in tidalapi in the python package directory and replace wit new one to be able to use playlistcopy.py
+python playlistcopy.py # Replace __init__.py in tidalapi for this to work.
 ```
 
 tidalapi: https://github.com/tamland/python-tidal
