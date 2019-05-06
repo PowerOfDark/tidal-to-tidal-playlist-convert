@@ -1,10 +1,10 @@
 import tidalapi
 session = tidalapi.Session()
-u1 = input("Enter username of account you are copying from.")
-p1 = input("Enter password of account you are copying from.")
+u1 = raw_input("Enter username of account you are copying from.")
+p1 = raw_input("Enter password of account you are copying from.")
 session.login(u1,p1)
-u2 = input("Enter username of account you are copying to.")
-p2 = input("Enter password of account you are copying to.")
+u2 = raw_input("Enter username of account you are copying to.")
+p2 = raw_input("Enter password of account you are copying to.")
 session2 = tidalapi.Session()
 session2.login(u2,p2)
 id1 = session.user.id
