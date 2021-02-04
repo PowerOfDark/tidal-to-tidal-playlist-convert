@@ -3,9 +3,9 @@
 Copy your Tracks from one Tidal account to another.
 
 ## To install:
-Need to have python(2.7) and pip installed.
+Need to have python3 and pip installed (https://www.python.org/downloads/release/python-387/).
 ```bash
-pip install tidalapi
+pip3 install tidalapi
 git clone https://github.com/SimDoes/tidal-to-tidal-playlist-convert.git && cd tidal-to-tidal-playlist-convert
 
 python favcopy.py
