@@ -1,12 +1,8 @@
 import tidalapi
 session = tidalapi.Session()
-u1 = input("Enter username of account you are copying from: ")
-p1 = input("Enter password of account you are copying from: ")
-session.login(u1,p1)
-u2 = input("Enter username of account you are copying to: ")
-p2 = input("Enter password of account you are copying to: ")
+session.login_oauth_simple()
 session2 = tidalapi.Session()
-session2.login(u2,p2)
+session2.login_oauth_simple()
 id1 = session.user.id
 id2 = session2.user.id
 fav = tidalapi.Favorites(session, id1)
